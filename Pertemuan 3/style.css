@@ -1,0 +1,63 @@
+#kotak {
+    background: violet;
+    width: 5em;
+    height: 5em;
+
+    /* margin: 
+        - margin-top: (jarak elemen ke atas)
+        - margin-right: (jarak elemen ke kanan)
+        - margin-bottom: (jarak elemen ke bawah)
+        - margin-left: (jarak elemen ke kiri)    
+    */
+
+    /* penulisan 1 baris untuk 4 arah dengan nilai berbeda: 
+        format ==> margin: top right bottom left;
+    */
+    margin: 50px 40px 65px 25px;
+    padding: 2em 3em 1em 4em;
+    color: aqua;
+}
+
+#kotak2 {
+    background: black;
+    width: 8em;
+    height: 8em;
+    /* penulisan 1 baris untuk 4 arah dengan nilai pasangan yang sama (atas = bawah; kanan = kiri) 
+        format ==> margin: top/bottom right/left;
+    */
+    margin: 2em 6em;
+    padding: 3em 1em;
+    
+}
+
+#kotak3 {
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    /* penulisan terpisah */
+    margin-top: 3em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    margin-left: 10em;
+
+    padding-top: 3.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    padding-left: 1.2em;
+}
+
+#kotak4 {
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    /* penulisan untuk nilai yang sama dari semua arah / sisi */
+    margin: 8em; /* jarak kotak ke semua arah sama */
+}
+
+#kotak5 {
+    background-color: brown;
+    color: white;
+    margin: 2em;
+    padding: 5em;
+}
+

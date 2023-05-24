@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 5 - Muhammad Fajar Fakhruddin</title>
+</head>
+<body>
+    <label for="Pesan">Pesan: </label>
+    <input type="text" id="Pesan" /> <br/>
+
+    <select id="Berapa Kali">
+        <option value="" disabled selected> Pilih Berapa Kali: </option> 
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select> <br/><br/>
+
+    <label for="Berapa Kali">Berapa Kali: </label>
+    <input type="Berapa Kali" id="Berapa Kali" /> <br/>
+
+    <button onclick="Cetak!()">Cetak!</button> 
+    <div id="text"></div>
+
+    <script>
+        function Cetak!() {
+            const dt = document.getElementById("text")
+            let hitung = 0
+            while (hitung < 10) {
+                // ini di dalam perulangan
+                dt.innerHTML = dt.innerHTML + "<p>Belajar Bersama Hacktiv8</p>"
+                hitung = hitung + 1
+            }
+        }
+        
+    </script>
+    <ol></ol>
+
+
+    <script>
+        // const nama_variabel= document.getElementById("nama_variabel")
+        
+
+        function cetak(){
+            
+        }
+    </script>
+</body>
+</html>

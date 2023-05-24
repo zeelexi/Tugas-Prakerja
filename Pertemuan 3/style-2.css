@@ -1,0 +1,53 @@
+#kotak {
+    background: violet;
+    width: 5em;
+    height: 5em;
+    /*
+        jika tidak disebutkan, maka position value default-nya adalah static
+
+        jika static, maka tidak bisa digeser-geser
+    */
+    position: relative;
+    top: -5em;
+    left: 6em;
+    padding: 2em 3em 1em 4em;
+    color: aqua;
+}
+
+#kotak2 {
+    background: black;
+    width: 8em;
+    height: 8em;
+    position: relative;
+    top: 0;
+    padding: 3em 1em;
+    
+}
+
+#kotak3 {
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 3.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    padding-left: 1.2em;
+}
+
+#kotak4 {
+    background-color: green;
+    width: 60px;
+    height: 60px;
+
+}
+
+#kotak5 {
+    background-color: brown;
+    color: white;
+
+    padding: 5em;
+}
+

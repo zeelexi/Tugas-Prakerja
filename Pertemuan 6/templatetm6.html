@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas Mandiri 6 - Muhammad Fajar Fakhruddin</title>
+</head>
+
+<body>
+
+    <h1>PERCOBAAN</h1>
+    <style type="text/css">
+        .p1 {
+            color:cadetblue;
+        }
+        
+        .p2 {
+            color: coral;
+        }
+
+        .p3 {
+            color: burlywood;
+        }
+
+    </style>
+
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quo quaerat recusandae qui ullam eaque cumque ea fugit,
+        debitis commodi ipsum illo dolorum consequatur sed laudantium suscipit quis magni,
+        maiores in?</p>
+        
+    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quo quaerat recusandae qui ullam eaque cumque ea fugit,
+        debitis commodi ipsum illo dolorum consequatur sed laudantium suscipit quis magni,
+        maiores in?</p>
+    
+    <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quo quaerat recusandae qui ullam eaque cumque ea fugit,
+        debitis commodi ipsum illo dolorum consequatur sed laudantium suscipit quis magni,
+        maiores in?</p>
+        
+
+    <label>Warna text</label>
+    <input type="color" id="text-color" />
+
+
+
+    <script>
+       var txtColor = document.getElementById('text-color');
+
+       txtColor.addEventListener("change", (event) => {
+        document.body.style.color = txtColor.value;
+       });
+    </script>
+
+</body>
+
+</html>

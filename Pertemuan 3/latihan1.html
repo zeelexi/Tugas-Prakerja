@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1 - Pertemuan 3</title>
+
+    <!-- menambahkan css dengan internal css -->
+    <style>
+        /* komentar di css, tidak dieksekusi */
+        /* 
+            format penulisan css:
+            
+            selector {
+                property: value;
+                ...
+            }
+
+            selector: 
+                - tag html (tanpa tanda "<" atau ">") ==> h1, p, table, div, dst..
+                - id    ==> #namaid
+                - class ==> .namaclass
+
+
+        */
+
+        /*
+            cara penulisan css:
+            1. internal css     ==> di dalam tag head, menggunakan tag style
+            2. external css     ==> css ditulis sebagai file terpisah dengan ekstensi css
+            3. inline css       ==> ditulis di dalam tag elemen langsung, menggunakan atribut style
+
+        */
+        h1 {
+            color: orange;
+            background: black;
+        }
+
+        .artikel h1 {
+            color: red;
+            background-color: blue;
+            font-size: 20px;
+        }
+
+        #persegipanjang {
+            overflow-y: scroll;
+        }
+
+        body {
+            background: silver;
+            color: green;
+        }
+
+        .tulisan_kiri {
+            text-align: left;
+        }
+        .tulisan_tengah {
+            text-align: center;
+        }
+        .tulisan_kanan {
+            text-align: right;
+        }
+        .tulisan_justify {
+            text-align: justify;
+        }
+
+
+
+    </style>
+
+    <!-- menambahkan css dengan external css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Selamat datang di Kelas Hacktiv8!</h1>
+    dsfds
+
+    <div>tes tes tes</div>
+
+    <div class="artikel">
+        <h1>Hello, World!</h1>
+    </div>
+
+    <div id="kotak">Ini adalah kotak 1</div>
+    <div id="kotak2">Ini adalah kotak 2</div>
+    <div id="kotak3">Ini adalah kotak 3</div>
+    <div id="kotak4">Ini adalah kotak 4</div>
+    <div id="kotak5" style="text-transform: uppercase; text-decoration: line-through; font-size: 20pt;">Ini adalah kotak 5</div>
+
+    <!-- menambahkan css dengan cara inline css -->
+    <div id="persegipanjang" style="width: 500px; height: 30vh; background: greenyellow;">
+        
+        <p style="color: blue; font-family:Arial, Helvetica, sans-serif" class="tulisan_kiri">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corrupti excepturi cum ducimus, eius nihil? Ea consequatur enim animi sint cum autem officia fuga quos deserunt illo dolorum, rem adipisci.</p>
+
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic;" class="tulisan_tengah">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur cumque mollitia et saepe deserunt temporibus fugiat nihil! Expedita distinctio voluptatum neque at dolor eveniet beatae quibusdam necessitatibus dignissimos alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit numquam quibusdam exercitationem reprehenderit libero architecto voluptatibus recusandae, perferendis quis eligendi facere soluta officia laudantium dolores earum maiores quam, culpa fuga.</p>
+        <p class="tulisan_kanan" style="font-family: 'Courier New', Courier, monospace">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur cumque mollitia et saepe deserunt temporibus fugiat nihil! Expedita distinctio voluptatum neque at dolor eveniet beatae quibusdam necessitatibus dignissimos alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit numquam quibusdam exercitationem reprehenderit libero architecto voluptatibus recusandae, perferendis quis eligendi facere soluta officia laudantium dolores earum maiores quam, culpa fuga.</p>
+        <p class="tulisan_justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur cumque mollitia et saepe deserunt temporibus fugiat nihil! Expedita distinctio voluptatum neque at dolor eveniet beatae quibusdam necessitatibus dignissimos alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit numquam quibusdam exercitationem reprehenderit libero architecto voluptatibus recusandae, perferendis quis eligendi facere soluta officia laudantium dolores earum maiores quam, culpa fuga.</p>
+    </div>
+
+</body>
+</html>
